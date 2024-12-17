@@ -1,4 +1,8 @@
 import React from 'react'
+import ligtImg from '../assets/img/icon/quote-light.png'
+import darkImg from '../assets/img/icon/quote.png'
+import testiAuthor4 from '../assets/img/testi/testi-author-4.png'
+import testiImg1 from '../assets/img/images/testi-img-1.png'
 
 const TestonimalSection = () => {
   return (
@@ -8,7 +12,7 @@ const TestonimalSection = () => {
       <div className="row gy-lg-0 gy-5 align-items-center">
         <div className="col-lg-6">
           <div className="testi-img-4 reveal">
-            <img src="assets/img/images/testi-img-1.png" alt="testi" />
+            <img src={testiImg1} alt="testi" />
           </div>
         </div>
         <div className="col-lg-6">
@@ -35,12 +39,12 @@ const TestonimalSection = () => {
               <div className="quote">
                 <img
                   className="dark-img"
-                  src="assets/img/icon/quote.png"
+                  src={darkImg}
                   alt="quote"
                 />
                 <img
                   className="light-img"
-                  src="assets/img/icon/quote-light.png"
+                  src={ligtImg}
                   alt="quote"
                 />
               </div>
@@ -65,7 +69,7 @@ const TestonimalSection = () => {
                     </p>
                     <div className="author-box">
                       <img
-                        src="assets/img/testi/testi-author-4.png"
+                        src={testiAuthor4}
                         alt="img"
                       />
                       <h4 className="name">
@@ -84,7 +88,7 @@ const TestonimalSection = () => {
                     </p>
                     <div className="author-box">
                       <img
-                        src="assets/img/testi/testi-author-4.png"
+                        src={testiAuthor4}
                         alt="img"
                       />
                       <h4 className="name">

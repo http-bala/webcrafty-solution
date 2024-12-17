@@ -1,4 +1,7 @@
 import React from 'react'
+import reqMen from '../assets/img/images/req-man.png'
+import reqshape from '../assets/img/shapes/req-man-bg.png'
+
 
 const RequestSection = () => {
   return (
@@ -119,10 +122,10 @@ const RequestSection = () => {
         <div className="col-lg-5">
           <div className="req-img-2">
             <div className="req-man">
-              <img src="assets/img/images/req-man.png" alt="req" />
+              <img src={reqMen} alt="req" />
             </div>
             <div className="req-man-shape">
-              <img src="assets/img/shapes/req-man-bg.png" alt="shape" />
+              <img src={reqshape} alt="shape" />
             </div>
           </div>
         </div>

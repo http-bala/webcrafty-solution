@@ -3,7 +3,7 @@ import React from 'react'
 const OurAwardsSection = () => {
   return (
     <>
-  <section className="award-section pb-130">
+  <section className="award-section pb-130 mt-5">
     <div className="container">
       <div className="section-heading text-center">
         <h4

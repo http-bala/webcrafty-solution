@@ -15,11 +15,15 @@ import RequestSection from '../components/RequestSection'
 import BlogSection from '../components/BlogSection'
 import SponserSection from '../components/SponserSection'
 import CtaAreaSection from '../components/CtaAreaSection'
+import WhatsAppButton from '../components/WhatsAppButton'
 import Footer from '../components/Footer'
+import PlansSection from "../components/PlansSection";
+
 
 const Home = () => {
   return (
     <>
+    
     <Navbar/>
     <div id="smooth-wrapper">
     <div id="smooth-content">
@@ -33,11 +37,12 @@ const Home = () => {
     <OurAwardsSection/>
     {/* <ProjectSection/> */}
     {/* <CounterSection/> */}
-    {/* <TestonimalSection/> */}
+    <TestonimalSection/>
+    <PlansSection />
     <RequestSection/>
-    {/* <BlogSection/> */}
+    <BlogSection/>
     {/* <SponserSection/> */}
-    {/* <CtaAreaSection/> */}
+    <CtaAreaSection/>
     <Footer/>
     </div>
     </div>

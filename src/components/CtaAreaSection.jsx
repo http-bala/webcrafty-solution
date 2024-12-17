@@ -1,4 +1,5 @@
 import React from 'react'
+import ctaContact from "../assets/img/images/contact-cta.png"
 
 const CtaAreaSection = () => {
   return (
@@ -36,12 +37,12 @@ const CtaAreaSection = () => {
               </div>
               <div className="content">
                 <span>CAll Us Anytime</span>
-                <a href="tel:+25832561586">(+258) 3256 21586</a>
+                <a href="tel:8154954408">(+91) 8154954405</a>
               </div>
             </div>
           </div>
           <div className="cta-contact-img">
-            <img src="assets/img/images/contact-cta.png" alt="cta" />
+            <img src={ctaContact} alt="cta" />
           </div>
         </div>
       </div>
